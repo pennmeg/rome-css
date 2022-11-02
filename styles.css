@@ -1,0 +1,78 @@
+/* --- color variables */
+:root {
+    --color-white: #ffffff;
+    --color-background: #e3dccc;
+    --color-gray: #dfdfdf;
+    --color-brown: #693e30;
+    --color-black: #0b1314;
+    --color-red: #d54335;
+    --color-orange: #d7592f;
+    --color-yellow: #e09d35;
+    --color-pink: #d42e7b;
+}
+
+/* --- background and body styles */
+body {
+    margin: 0;
+}
+
+#poster--container {
+    height: 100vh;
+    width: 100vw;
+    margin: 50px;
+}
+
+.poster--border {
+    height: 100%;
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--color-white);
+    box-shadow: 1px 2px 4px 2px var(--color-gray);
+}
+
+.poster--background {
+    position: absolute;
+    box-sizing: border-box;
+    height: 100%;
+    width: 40%;
+    background-color: var(--color-background);
+}
+
+/* --- sun styles */
+.sun--yellow {
+    position: absolute;
+    top: 12%;
+    left: 1%;
+    height: 58%;
+    width: 96%;
+    background-color: var(--color-yellow);
+    border-radius: 100%;
+}
+
+.sun--orange {
+    position: relative;
+    height: 75%;
+    width: 75%;
+    top: 12%;
+    right: -12%;
+    background-color: var(--color-orange);
+    border-radius: 100%;
+}
+
+.sun--red {
+    position: relative;
+    height: 66%;
+    width: 66%;
+    top: 17%;
+    right: -17%;
+    background-color: var(--color-red);
+    border-radius: 100%;
+}
+
+/* --- rome styles */
+.rome--ground {
+    position: relative;
+    top: 100%;
+    background-color: var(--color-black);
+}
